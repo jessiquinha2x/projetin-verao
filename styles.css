@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap'); /* Estilo ninja */
+
+:root {
+    --chakra-laranja: #FF9900;
+    --chakra-azul: #007BFF;
+    --chakra-escuro: #1C1C1C;
+    --chakra-claro: #F9F9F9;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--chakra-claro);
+    color: var(--chakra-escuro);
+}
+
+header {
+    background-color: var(--chakra-escuro);
+    color: white;
+}
+
+section {
+    padding-bottom: 5rem;
+}
+
+.nav-link {
+    color: var(--chakra-laranja);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.inicio-fundo {
+    background-image: url('img/naruto-background.jpg'); /* imagem temática de Naruto */
+    background-size: cover;
+    background-position: center;
+    border-radius: 60px;
+    width: 100%;
+    height: 606px;
+    padding: 40px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.img-inicio {
+    position: absolute;
+    right: 0;
+    top: 18rem;
+    width: 40rem;
+    height: auto;
+}
+
+.esquerda-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.botao-inicio {
+    background-color: var(--chakra-laranja);
+    border-radius: 30px;
+    border: none;
+    width: 14em;
+    height: 3em;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 0 10px var(--chakra-laranja);
+}
+
+.display-4 {
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    text-shadow: 2px 2px var(--chakra-laranja);
+}
+
+#naruto {
+    position: relative;
+    padding-top: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background: url('img/kunai.png') top right no-repeat,
+                url('img/shuriken.png') bottom left no-repeat;
+    background-size: 120px 120px;
+}
+
+#naruto .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.5em;
+    color: var(--chakra-laranja);
+}
+
+#galeria {
+    background-color: #EFEFEF;
+}
+
+.fundo-galeria {
+    background: url('img/rasengan.png') bottom right no-repeat;
+    background-size: 180px 180px;
+}
+
+#contato {
+    background-image: url('img/konoha-background.jpg');
+    background-size: cover;
+    padding: 4rem 0;
+}
+
+.formulario {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 153, 0, 0.3);
+    font-weight: bold;
+}
+
+.formulario button {
+    background-color: var(--chakra-azul);
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+
+.form-control {
+    background-color: #F5F5F5;
+}
+
+.menu-acessibilidade {
+    position: fixed;
+    top: 2rem;
+    right: 20px;
+    z-index: 1000;
+}
+
+.rotacao-botao {
+    transform: rotate(-90deg);
+    transform-origin: right center;
+}
+
+.opcoes-acessibilidade {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.opcoes-acessibilidade button {
+    margin-bottom: 5px;
+    background-color: var(--chakra-laranja);
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.apresenta-lista {
+    display: none;
+}
